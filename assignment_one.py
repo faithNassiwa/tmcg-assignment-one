@@ -2,6 +2,7 @@
 A python function that takes a list of SMS messages and input and returns 
 a ranking of each word's frequency
 '''
+import re
 
 def wordFreqDict(message_list): 
 	message_string = ' , '.join(message_list)  # converting list(message_list) to a string
