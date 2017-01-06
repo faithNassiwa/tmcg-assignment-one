@@ -4,7 +4,7 @@ a ranking of each word's frequency
 '''
 
 def wordFreqDict(message_list): 
-	message_string = ', '.join(message_list)  # converting list(message_list) to a string
+	message_string = ' , '.join(message_list)  # converting list(message_list) to a string
 	word_list = message_string.split()  # splits message_string into a list of words
 	word_freq = [word_list.count(word) for word in word_list]  # count the frequency of each word's appearance in the word_list
 
