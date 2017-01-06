@@ -1,5 +1,5 @@
 '''
-A python function that takes a list of SMS messages and input and returns 
+A python function that takes a list of SMS messages and returns 
 a ranking of each word's frequency
 '''
 import re
